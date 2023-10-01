@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:ital,wght@0,400;1,700&display=swap">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-page">
+    <div class="main-container">
+      <form action="" class="calc-form">
+       <div class="age-inputs">
+        <label class="age-input">
+          <span class="date-info">day</span>
+          <input type="text" class="date-cell day-input" placeholder="DD">       <!-- заглушка -->
+          <span class="age-input-error day-error"></span>
+        </label>
+        
+        <label class="age-input">
+          <span class="date-info">month</span>
+          <input type="text" class="date-cell  month-input" placeholder="MM">       <!-- заглушка -->
+          <span class="age-input-error month-error"></span>
+        </label>
+        
+        <label class="age-input">
+          <span class="date-info">year</span>
+          <input type="text" class="date-cell  year-input" placeholder="YYYY">       <!-- заглушка -->
+          <span class="age-input-error year-error"></span>
+        </label>
+
+       </div> 
+        
+        <div class="button-container">
+          <button class="calculate-button" type="submit"><img class="button-image" src="./assets/images/icon-arrow.svg" alt="icon-arrow"></button> 
+          <hr> 
+        </div>
+      </form>   
+     
+      <div class="age-result-container">
+        <div class="age-result-block">
+          <span class="age-number-cell years-result">--</span>
+          <span class="age-number-text">years</span>
+        </div>
+        
+           <div class="age-result-block">
+          <span class="age-number-cell months-result">--</span>
+          <span class="age-number-text">months</span>
+        </div>
+        
+           <div class="age-result-block">
+          <span class="age-number-cell days-result">--</span>
+          <span class="age-number-text">days</span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
