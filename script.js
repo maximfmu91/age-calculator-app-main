@@ -1,4 +1,4 @@
-// This field is required; Must be a valid day (Must be a valid date); Must be a valid month; Must be in the past  - тексты ошибки
+
 
 let calcForm = document.querySelector('.calc-form');
 
